@@ -15,6 +15,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #242F51!important;
 }
 h2{
     font-size: 40px;
@@ -24,15 +25,15 @@ h2{
 section{
     margin: 70px 0px;
 }
-button{
+.button{
     background: #2500F9;
-    color: #fff;
-    font-size: 16px;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 20px;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 8px 15px !important;
+    border: none  !important;
+    border-radius: 20px  !important;
 }
-button:hover{
+.button:hover{
     background: #FEAA25 !important;
     color: #fff;
 }
@@ -46,12 +47,12 @@ button:hover{
 #topbar{
     margin: 80px 0px;
 }
-#topbar .logobar{
-    color: #242F51;
+#topbar .logo{
+    color: #242F51!important;
     font-weight: 600;
     font-size: 25px;
 }
-#topbar .logobar span{
+#topbar .logo span{
     color: #FCAE61;
 }
 #topbar .menubar{
@@ -64,7 +65,12 @@ button:hover{
     font-size: 20px;
     border-radius: 20px;
 }
-
+#topbar .navbar-collapse {
+    flex-grow: 0;
+}
+#topbar .navbar-item{
+    background: red;
+}
 /* ====================HEADER END=============== */ 
 
 
