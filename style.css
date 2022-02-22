@@ -22,20 +22,23 @@ h2{
     font-weight: 600;
     margin-bottom: 30px;
 }
+p{
+    color: #6f7380;
+}
 section{
     margin: 70px 0px;
 }
 .button{
     background: #2500F9;
     color: #fff !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
     padding: 8px 15px !important;
     border: none  !important;
     border-radius: 20px  !important;
 }
 .button:hover{
     background: #FEAA25 !important;
-    color: #fff;
+    color: #fff!important;
 }
 /* ======================================== */
 
@@ -47,7 +50,7 @@ section{
 #topbar{
     margin: 80px 0px;
 }
-#topbar .logo{
+#topbar .logo a{
     color: #242F51!important;
     font-weight: 600;
     font-size: 25px;
@@ -59,17 +62,11 @@ section{
     color: #273253;
     font-size: 20px;
 }
-#topbar .menubar button{
-    background:#2500F9;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 20px;
-}
 #topbar .navbar-collapse {
     flex-grow: 0;
 }
-#topbar .navbar-item{
-    background: red;
+#topbar .nav-item{
+    font-size: 18px;
 }
 /* ====================HEADER END=============== */ 
 
@@ -78,11 +75,7 @@ section{
 2) BANNER
 ============================================  */
 #banner{
-    width: 100%;
     background:url("assets/images/") ;
-}
-#banner .textarea{
-    margin: 200px 0px;
 }
 #banner .textarea h4{
     display: inline-block;
@@ -95,7 +88,7 @@ section{
     background: #FEAA25;
     color: #fff;
     font-size: 20px;
-    padding: 10px;
+    padding: 11px;
     border-radius: 50%;
 }
 #banner .textarea h2{
@@ -106,12 +99,6 @@ section{
 #banner .textarea p{
     font-size: 20px;
     margin: 20px 0px;
-}
-#banner .textarea button{
-    background: #2500F9;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 20px;
 }
 #banner .textarea a{
     margin-left: 20px;
