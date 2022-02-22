@@ -1,0 +1,359 @@
+/* google fonts import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+section{
+    margin: 70px 0px;
+}
+button{
+    background: #2500F9;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background: #FEAA25 !important;
+    color: #fff;
+}
+/* ======================================== */
+
+
+
+/* ========================================== 
+1) header
+============================================  */
+#topbar{
+    margin: 80px 0px;
+}
+#topbar .logobar{
+    color: #242F51;
+    font-weight: 600;
+    font-size: 25px;
+}
+#topbar .logobar span{
+    color: #FCAE61;
+}
+#topbar .menubar{
+    color: #273253;
+    font-size: 20px;
+}
+#topbar .menubar button{
+    background:#2500F9;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/* ====================HEADER END=============== */ 
+
+
+/* ========================================== 
+2) BANNER
+============================================  */
+#banner{
+    width: 100%;
+    background:url("assets/images/") ;
+}
+#banner .textarea{
+    margin: 200px 0px;
+}
+#banner .textarea h4{
+    display: inline-block;
+    background: #E2EAED;
+    color: #575F76;
+    padding: 10px 10px 10px 0px;
+    border-radius: 20px;
+}
+#banner .textarea i{
+    background: #FEAA25;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#banner .textarea h2{
+    color: #242F51;
+    font-weight: 900;
+    font-size: 60px;
+}
+#banner .textarea p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#banner .textarea button{
+    background: #2500F9;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+#banner .textarea a{
+    margin-left: 20px;
+    color: #5946FA;
+}
+/* ===========BANNER END==================== */
+
+
+/* ========================================== 
+3) TRUSTED
+============================================   */
+#trusted{
+    margin: 100px 0px;
+}
+#trusted .textarea{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+#trusted .imagearea{
+    display: flex;
+    justify-content: space-around;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+4) FEATURES
+============================================   */
+
+#features .imagearea img{
+    width: 100%;
+}
+#features .single1,.single2,.single3{
+    display: inline-block;
+    margin: 15px 0px;
+}
+#features .single1 h4{
+    color:#F55767;
+}
+#features .single2 h4{
+    color:#2562FC;
+}
+#features .single3 h4{
+    color:#489B66;
+}
+/* ===========FEATURES END==================== */
+
+
+/* ========================================== 
+5) JACPOT
+============================================   */
+#jackpot{
+margin: 100px 0px;
+}
+#jackpot .textbox{
+    margin-bottom: 80px;
+}
+#jackpot .textbox h2{
+    font-size: 40px;
+    font-weight: 600;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+#jackpot .textbox p{
+    margin: 50px 10px;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+6) latest
+============================================   */
+#latest .imagearea img{
+    width: 100%;
+}
+#latest .textarea{
+    margin: 80px 20px;
+}
+#latest .textarea h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#latest .textarea p{
+    font-size: 18px;
+    color: #242F51;
+}
+#latest .textarea button{
+    background: #2500F9;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+7) WHYUS
+============================================   */
+#whyus .textbox h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#whyus .contentbox{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+#whyus .contentbox .singlepost{
+    margin: 30px 0px;
+}
+#whyus .contentbox .singlepost h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+8) ULTIMATE FEATURES
+============================================   */
+#ulfeatures{
+
+}
+#ulfeatures  h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#ulfeatures .textarea .singlepost{
+    margin: 30px 0px;
+}
+#ulfeatures .imagearea img{
+    width: 100%;
+}
+#ulfeatures .textarea .singlepost h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+9) client section
+============================================   */
+#client .imagearea img{
+    width: 100%;
+    margin-top: 100px;
+}
+#client .textarea h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#client .textarea h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+#client .textarea i{
+    color: #FEAA25;
+}
+#client .textarea i:last-child{
+    color: #242F51;
+    transform: translate(80px,35px);
+}
+/* ===========client END==================== */
+
+
+/* ========================================== 
+10) FAQ
+============================================   */
+#faq .faqbody{
+    width: 70%;
+    margin: 50px auto;
+}
+#faq .singleask{
+    background: rgb(233, 233, 233);
+    padding: 8px;
+    margin: 5px;
+}
+#faq .faqbody h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+/* #faq .faqbody .drop1{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+  }
+#faq .faqbody:hover .drop1{
+    display: block;
+  } */
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+11) DOWNLOAD
+============================================   */
+#download .app{
+    background: #000;
+    display: inline-block;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#download .app i{
+    font-size: 30px;
+    margin: 4px 0;
+}
+#download .app p,#download .app h4{
+    margin: 0;
+}
+#download .imagearea img{
+    width: 100%;
+}
+/* ===========TRUSTED END==================== */
+
+
+/* ========================================== 
+12) FOOTER
+============================================   */
+#footer{
+    background: #273253;
+    margin-bottom: 0px;
+    padding: 50px 0px;
+}
+#footer .pagelink a{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+#footer .pagelink span{
+    color: #FEAA25;
+    font-weight: 600;
+
+}
+#footer h4{
+    margin: 30px;
+}
+#footer i,#footer p{
+    color: #6b7db4;
+}
+#footer i:hover{
+    color: #fff;
+}
+/* ===========TRUSTED END==================== */
