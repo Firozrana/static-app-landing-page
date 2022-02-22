@@ -132,10 +132,6 @@ section{
 #features .imagearea img{
     width: 100%;
 }
-#features .single1,.single2,.single3{
-    display: inline-block;
-    margin: 15px 0px;
-}
 #features .single1 h4{
     color:#F55767;
 }
