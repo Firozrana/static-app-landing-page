@@ -126,9 +126,6 @@ section{
     display: flex;
     justify-content: space-around;
 }
-#trusted .imagearea img{
-    min-width: 150px;
-}
 /* ===========TRUSTED END==================== */
 
 
@@ -186,11 +183,6 @@ margin: 100px 0px;
 /* ========================================== 
 7) WHYUS
 ============================================   */
-#whyus .textbox h2{
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
 #whyus .contentbox{
     width: 80%;
     margin: 0px auto;
