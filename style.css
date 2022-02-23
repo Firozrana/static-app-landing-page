@@ -18,6 +18,7 @@ a{
     color: #242F51!important;
 }
 h2{
+    color: #242F51;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -65,6 +66,10 @@ section{
 #topbar .navbar-collapse {
     flex-grow: 0;
 }
+#topbar .navbar-toggler{
+    background-color: #FEAA25;
+    color: #fff !important;
+}
 #topbar .nav-item{
     font-size: 18px;
 }
@@ -92,7 +97,6 @@ section{
     border-radius: 50%;
 }
 #banner .textarea h2{
-    color: #242F51;
     font-weight: 900;
     font-size: 60px;
 }
@@ -122,6 +126,9 @@ section{
     display: flex;
     justify-content: space-around;
 }
+#trusted .imagearea img{
+    min-width: 150px;
+}
 /* ===========TRUSTED END==================== */
 
 
@@ -150,18 +157,16 @@ section{
 #jackpot{
 margin: 100px 0px;
 }
-#jackpot .textbox{
+#jackpot .textarea{
     margin-bottom: 80px;
 }
-#jackpot .textbox h2{
+#jackpot .textarea h2{
     font-size: 40px;
     font-weight: 600;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
-#jackpot .textbox p{
-    margin: 50px 10px;
-}
-/* ===========TRUSTED END==================== */
+
+/* ===========Jackpot END==================== */
 
 
 /* ========================================== 
